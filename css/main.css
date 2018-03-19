@@ -189,12 +189,13 @@ nav a p{
 
 main {
     max-width: 80%;
-    margin: 30px auto 0;
+    margin: 30px auto 15px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
     height: 100%;
+    min-height: calc( 100vh - 150px);
 }
 
 header h1 {
