@@ -223,6 +223,7 @@ main article {
 
 img.landing.logo {
     width: 70vw;
+    max-width: 500px;
 }
 
 /*CONTACT*/
@@ -293,7 +294,7 @@ textarea:focus {
 
 .icon-description {
     width: 90%;
-    margin: 0 auto 100px ;
+    margin: 0 auto 50px ;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -356,8 +357,7 @@ article.about.grid .text {
 }
 
 article.about.grid img {
-    min-height: 100%;
-    object-fit: cover;
+    width: 100%;
 }
 
 @media screen and (min-width:700px) {

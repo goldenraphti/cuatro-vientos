@@ -10,9 +10,10 @@
     <!-- links to Google Fonts -->
      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900" rel="stylesheet"> 
             
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
     
 </head>
 
@@ -180,8 +181,15 @@
         </div>
         <main>
            <header>
-               <h1><span class="light-title">Cafe</span><br>Cuatro Vientos</h1>
-               <img src="images/illustration-logo-landing.png" class="logo landing" alt="">
+               <h1 class="index-title"><span class="light-title">Cafe</span><br>Cuatro Vientos</h1>
+               <picture>
+                    <img
+                             src="images/illustration-logo-landing-200.png"
+                             sizes="70vw"
+                             srcset="images/illustration-logo-landing-200.png 200w, images/illustration-logo-landing-400.png 400w, images/illustration-logo-landing-600.png 600w, 
+                 images/illustration-logo-landing-800.png 800w, images/illustration-logo-landing-1000.png 1000w, images/illustration-logo-landing-1500.png 1500w, images/illustration-logo-landing-2000.png 2000w, images/illustration-logo-landing-4000.png 4000w" 
+                             alt="map and journal on a table"  class="logo landing" />
+                </picture>
            </header>
             
             <article>
